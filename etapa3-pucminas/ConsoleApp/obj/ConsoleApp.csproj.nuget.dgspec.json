@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chang\\Desktop\\Etapa3\\etapa3-pucminas\\ConsoleApp\\ConsoleApp.csproj": {}
+    "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/etapa3-pucminas/ConsoleApp/ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chang\\Desktop\\Etapa3\\etapa3-pucminas\\ConsoleApp\\ConsoleApp.csproj": {
+    "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/etapa3-pucminas/ConsoleApp/ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chang\\Desktop\\Etapa3\\etapa3-pucminas\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/etapa3-pucminas/ConsoleApp/ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\Chang\\Desktop\\Etapa3\\etapa3-pucminas\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Chang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chang\\Desktop\\Etapa3\\etapa3-pucminas\\ConsoleApp\\obj\\",
+        "projectPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/etapa3-pucminas/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/Users/tee.tech/.nuget/packages/",
+        "outputPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/etapa3-pucminas/ConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Chang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/tee.tech/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

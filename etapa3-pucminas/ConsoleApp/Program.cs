@@ -8,33 +8,73 @@ namespace ComputerInventory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Inventário de Computador");
+         MenuDeOpcoe(); //apresenta menu de opcoes
+         Console.WriteLine(" ");
+         Console.WriteLine(" ");          
+         Console.WriteLine("Programa terminado");
+        }
+
+        static void MenuDeOpcoe() //Menu de opções
+        {
+            bool isRunning = true;
+
+            while (isRunning)
+           {
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("INVENTÁRIO DE COMPUTADOR");
+            Console.WriteLine(" ");
             Console.WriteLine("Selecione uma opção:");
-            Console.WriteLine("1. Inventário de Hardware");
-            Console.WriteLine("2. Inventário de Software");
-            Console.WriteLine("3. Inventário de Hardware e Software");
-            Console.Write("Opção: ");
+            Console.WriteLine("  1. Inventário de Hardware");
+            Console.WriteLine("  2. Inventário de Software");
+            Console.WriteLine("  3. Inventário de Hardware e Software");
+            Console.WriteLine("  S. Sair");
+            Console.WriteLine(" ");
+            Console.Write("OPÇÃO --> ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
             string option = Console.ReadLine();
 
             switch (option)
-            {
+           {
                 case "1":
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");                 
+                    Console.WriteLine("Você escolheu a Opção 1.");
                     InventoryHardware();
                     break;
                 case "2":
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" "); 
+                    Console.WriteLine("Você escolheu a Opção 2.");
                     InventorySoftware();
                     break;
                 case "3":
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");                 
+                    Console.WriteLine("Você escolheu a Opção 3.");
                     InventoryHardware();
                     InventorySoftware();
                     break;
-                default:
-                    Console.WriteLine("Opção inválida.");
+                case "s"or"S":
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");                 
+                    Console.WriteLine("Saindo do programa...");
+                    isRunning = false; // Define a variável de controle como false para sair do loop
                     break;
-            }
+                default:
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");                 
+                    Console.WriteLine("Opção inválida.");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(" ");
+                    break;
+                }
+           }
         }
 
-        static void InventoryHardware()
+        static void InventoryHardware() //cria arquivo com inventario de hardware
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioHardware.dat");
             using (StreamWriter writer = new StreamWriter(filePath))
@@ -64,7 +104,7 @@ namespace ComputerInventory
             }
         }
 
-        static void InventorySoftware()
+        static void InventorySoftware() //cria arquivo com inventario de software
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioSoftware.dat");
             using (StreamWriter writer = new StreamWriter(filePath))
