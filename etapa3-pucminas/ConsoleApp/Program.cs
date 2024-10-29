@@ -8,13 +8,13 @@ namespace ComputerInventory
     {
         static void Main(string[] args)
         {
-         MenuDeOpcoe(); //apresenta menu de opcoes
+         MenuDeOpcoes(); //apresenta menu de opcoes
          Console.WriteLine(" ");
          Console.WriteLine(" ");          
          Console.WriteLine("Programa terminado");
         }
 
-        static void MenuDeOpcoe() //Menu de opções
+        static void MenuDeOpcoes() //Menu de opções
         {
             bool isRunning = true;
 
