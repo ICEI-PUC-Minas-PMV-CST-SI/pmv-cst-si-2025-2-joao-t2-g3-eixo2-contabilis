@@ -31,8 +31,6 @@ namespace ComputerInventory
             Console.WriteLine("  S. Sair");
             Console.WriteLine(" ");
             Console.Write("OPÇÃO --> ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
 
             string option = Console.ReadLine();
 
