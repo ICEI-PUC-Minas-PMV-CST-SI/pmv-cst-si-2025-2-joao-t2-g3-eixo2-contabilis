@@ -32,7 +32,7 @@ namespace ComputerInventory
             Console.WriteLine(" ");
             Console.Write("OPÇÃO --> ");
 
-            string option = Console.ReadLine();
+            string option = Console.ReadLine()!;
 
             switch (option)
            {
