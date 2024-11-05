@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6m+qIlJaCXM=",
+  "dgSpecHash": "cw6g/A3kN0k=",
   "success": true,
-  "projectFilePath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/ConsoleApp/ConsoleApp.csproj",
+  "projectFilePath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/src/main/ConsoleApp/ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/Users/tee.tech/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
     "/Users/tee.tech/.nuget/packages/system.management/8.0.0/system.management.8.0.0.nupkg.sha512"

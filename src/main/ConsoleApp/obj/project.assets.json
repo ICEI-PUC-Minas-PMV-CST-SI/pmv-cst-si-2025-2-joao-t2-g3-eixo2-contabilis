@@ -120,11 +120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/ConsoleApp/ConsoleApp.csproj",
+      "projectUniqueName": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/src/main/ConsoleApp/ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/ConsoleApp/ConsoleApp.csproj",
+      "projectPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/src/main/ConsoleApp/ConsoleApp.csproj",
       "packagesPath": "/Users/tee.tech/.nuget/packages/",
-      "outputPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/ConsoleApp/obj/",
+      "outputPath": "/Users/tee.tech/Documents/estapa 3/programa/pmv-cst-si-2024-2-pe1-t2-g3-contabilis/src/main/ConsoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tee.tech/.nuget/NuGet/NuGet.Config"
