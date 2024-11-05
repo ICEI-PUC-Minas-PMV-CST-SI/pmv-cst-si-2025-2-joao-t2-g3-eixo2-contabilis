@@ -1,6 +1,6 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: SIColl - Script Info Collector
 authors:
   - family-names: Chang
     given-names: Alex
@@ -14,16 +14,15 @@ authors:
     given-names: Mariza
   - family-names: Santos
     given-names: Pedro
-  - family-names:
-    given-names:
   - name-suffix: Professor 
     affiliation: PUC Minas
     family-names: Oliveira
     given-names: Pedro
 keywords:
-  -
-  -
+  - C#
+  - Script powershell
+  - Windows
 repository-code:
-license: CC-BY-4.0
+license: MIT License
 version: 1.0.0
 date-released: 2024-11-03
