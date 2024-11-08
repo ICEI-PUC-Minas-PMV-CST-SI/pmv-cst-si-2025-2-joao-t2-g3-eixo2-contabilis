@@ -3,7 +3,7 @@
 
 `CURSO: Segurança da  Informação`
 
-`DISCIPLINA: Projeto - Projeto Fundamentos de Sistemas`
+`DISCIPLINA: Projeto - Etapa 3 - Projeto Fundamentos de Sistemas`
 
 `Eixo: 1`
 

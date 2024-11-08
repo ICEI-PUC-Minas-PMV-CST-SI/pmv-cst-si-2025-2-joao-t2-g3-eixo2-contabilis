@@ -16,9 +16,9 @@ namespace ComputerInventory
 
         static void MenuDeOpcoes() //Menu de opções
         {
-            bool isRunning = true;
+            bool Funcionando = true;
 
-            while (isRunning)
+            while (Funcionando)
            {
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -32,34 +32,34 @@ namespace ComputerInventory
             Console.WriteLine(" ");
             Console.Write("OPÇÃO --> ");
 
-            string option = Console.ReadLine()!;
+            string Opcao = Console.ReadLine()!;
 
-            switch (option)
+            switch (Opcao)
            {
                 case "1":
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");                 
                     Console.WriteLine("Você escolheu a Opção 1.");
-                    InventoryHardware();
+                    InventarioDeHardware();
                     break;
                 case "2":
                     Console.WriteLine(" ");
                     Console.WriteLine(" "); 
                     Console.WriteLine("Você escolheu a Opção 2.");
-                    InventorySoftware();
+                    InventarioDeSoftware();
                     break;
                 case "3":
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");                 
                     Console.WriteLine("Você escolheu a Opção 3.");
-                    InventoryHardware();
-                    InventorySoftware();
+                    InventarioDeHardware();
+                    InventarioDeSoftware();
                     break;
                 case "s"or"S":
                     Console.WriteLine(" ");
                     Console.WriteLine(" ");                 
                     Console.WriteLine("Saindo do programa...");
-                    isRunning = false; // Define a variável de controle como false para sair do loop
+                    Funcionando = false; // Define a variável de controle como false para sair do loop
                     break;
                 default:
                     Console.WriteLine(" ");
@@ -72,10 +72,10 @@ namespace ComputerInventory
            }
         }
 
-        static void InventoryHardware() //cria arquivo com inventario de hardware
+        static void InventarioDeHardware() //cria arquivo com inventario de hardware
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioHardware.dat");
-            using (StreamWriter writer = new StreamWriter(filePath))
+            string arquivoDAT = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioHardware.dat");
+            using (StreamWriter writer = new StreamWriter(arquivoDAT))
             {
                 writer.WriteLine("Inventário de Hardware");
                 writer.WriteLine("----------------------");
@@ -98,14 +98,14 @@ namespace ComputerInventory
                     writer.WriteLine("Disco Rígido: " + obj["Model"] + " - " + Math.Round(Convert.ToDouble(obj["Size"]) / (1024 * 1024 * 1024), 2) + " GB");
                 }
 
-                writer.WriteLine("Inventário de Hardware salvo em: " + filePath);
+                writer.WriteLine("Inventário de Hardware salvo em: " + arquivoDAT);
             }
         }
 
-        static void InventorySoftware() //cria arquivo com inventario de software
+        static void InventarioDeSoftware() //cria arquivo com inventario de software
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioSoftware.dat");
-            using (StreamWriter writer = new StreamWriter(filePath))
+            string arquivoDAT = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "InventarioSoftware.dat");
+            using (StreamWriter writer = new StreamWriter(arquivoDAT))
             {
                 writer.WriteLine("Inventário de Software");
                 writer.WriteLine("----------------------");
@@ -116,7 +116,7 @@ namespace ComputerInventory
                     writer.WriteLine("Software: " + obj["Name"] + " - Versão: " + obj["Version"]);
                 }
 
-                writer.WriteLine("Inventário de Software salvo em: " + filePath);
+                writer.WriteLine("Inventário de Software salvo em: " + arquivoDAT);
             }
         }
     }
