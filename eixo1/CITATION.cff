@@ -1,0 +1,28 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: ComputerInventory 
+authors:
+  - family-names: Chang
+    given-names: Alex
+  - family-names: Ribeiro
+    given-names: Ana
+  - family-names: Peixoto
+    given-names: Emmanuel
+  - family-names: Freire
+    given-names: Jorbralyson
+  - family-names: Silva
+    given-names: Mariza
+  - family-names: Santos
+    given-names: Pedro
+  - name-suffix: Professor 
+    affiliation: PUC Minas
+    family-names: Oliveira
+    given-names: Pedro
+keywords:
+  - C#
+  - Script powershell
+  - Windows
+repository-code:
+license: MIT License
+version: 1.0.0
+date-released: 2024-11-03
