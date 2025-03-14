@@ -1,11 +1,9 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: ComputerInventory 
+message: Projeto segurança da empresa Contabilis
+title: Segurança da informações
 authors:
   - family-names: Chang
     given-names: Alex
-  - family-names: Ribeiro
-    given-names: Ana
   - family-names: Peixoto
     given-names: Emmanuel
   - family-names: Freire
@@ -16,13 +14,11 @@ authors:
     given-names: Pedro
   - name-suffix: Professor 
     affiliation: PUC Minas
-    family-names: Oliveira
-    given-names: Pedro
+    family-names: Caetano
+    given-names: João
 keywords:
-  - C#
-  - Script powershell
-  - Windows
+  - Segurança de Informações
 repository-code:
 license: MIT License
 version: 1.0.0
-date-released: 2024-11-03
+date-released: 2025-03-13

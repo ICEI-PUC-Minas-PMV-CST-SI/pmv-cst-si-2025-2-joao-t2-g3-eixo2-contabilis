@@ -5,14 +5,13 @@
 
 `DISCIPLINA:  Projeto Fundamentos de Sistemas`
 
-`Eixo: 1`
+`Eixo: 2`
 
-O ComputerInventory é uma solução robusta para ambientes Windows, projetada para gerar arquivos .dat com informações detalhadas sobre hardware e softwares instalados. Utiliz o PowerShell ppara execução, o ComputerInventory permite inventariar componentes como CPU, memória, armazenamento e especificações dos softwares, incluindo versões e fornecedores. O usuário pode optar por coletar dados de hardware, software ou ambos, de forma ágil e personalizada. Usado na empresa Contabilis pelo pessoal de segurança da informação, essa ferramenta facilita auditorias e o gerenciamento de ativos da empresa contabilis ao consolidar todas as especificações do sistema em um único arquivo.
+xxx
 
 ## Integrantes
 
 * Alex Chang
-* Ana Clara Flausino Ribeiro
 * Emmanuel Teixeira Peixoto
 * Jorbralyson Freire
 * Mariza Santos da Silva
@@ -20,6 +19,6 @@ O ComputerInventory é uma solução robusta para ambientes Windows, projetada p
 
 ## Orientador
 
-* Pedro Ivo Alexandre de Oliveira
+* João Carlos Oliveira Caetano
 
 
